@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="index1.css"> -->
+  <!-- 18-01-2026  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- 18-01-2026  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <title>GlamourTouch - Makeup Artist</title>
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("active");
+    }
+  </script>
+</head>
+<body>
+  <!-- 02-03-2026 -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="navbar">
+      <ul id="nav-links">
+        <li><a class="Home" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<header>
+  <h1>GlamourTouch - Makeup Artist</h1>
+  <p>Professional Makeup Artist for Weddings, Parties & Photoshoots</p>
+    <a href="#contact">Book Appointment</a>
+    <div class="icon">
+      <a href="https://wa.link/c0vv6l" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/makeupbykulsum123?igsh=dTFwN20yMm9jbmd0" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100056376109183" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.youtube.com/@makeupbykulsum123" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</header>
+<main>
+  <section class="hero">
+    <img src="./13.jpg" alt="Makeup Artist">
+    <div class="hero-content">
+      <h1>Hi, I’m Kulsum – Your Makeup Specialist</h1>
+      <p>Elevate your beauty for any occasion with personalized, flawless, and artistic looks. From bridal glam to editorial shoots, I blend skill, passion, and creativity for extraordinary results.</p>
+      <p><b>Based in Bhagalpur | Serving Bihar & Beyond</b></p>
+    </div>
+  </section>
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>I am a certified makeup artist with over 2 years of experience in bridal, party, and editorial makeup. I believe every face is unique and deserves a personalized touch. Let’s create your dream look together!</p>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Bridal Makeup & Hair Styling</li>
+      <li>Party/Occasion Makeup</li>
+      <li>Photo-shoot & Editorial Makeup</li>
+      <li>Personal Consultations & Lessons</li>
+    </ul>
+  </section>
+
+  <!-- Trying To Make a different Gallery-->
+   <!-- Make it Resposive -->
+  <section class="section" id="section">
+    <!-- <h2>Services</h2> -->
+      <h3>Bridal Makeup & Hair Styling</h3>
+      <div class="section-gallery">
+        <img src="./1.jpeg" alt="Editorial Makeup">
+        <img src="./2.jpeg" alt="Editorial Makeup">
+        <img src="./6.jpg" alt="Editorial Makeup">
+        <img src="./4.jpeg" alt="Editorial Makeup">
+      </div>
+      <h3>Party/Occasion Makeup</h3>
+      <div class="section-gallery">
+        <img src="./5.jpeg" alt="Editorial Makeup">
+        <img src="./3.jpeg" alt="Editorial Makeup">
+        <img src="./8.jpeg" alt="Editorial Makeup">
+        <img src="./8.jpeg" alt="Editorial Makeup">
+      </div>
+      <h3>Photo-shoot & Editorial Makeup</h3>
+      <div class="section-gallery">
+        <img src="./9.jpg" alt="Editorial Makeup">
+        <img src="./10.jpg" alt="Editorial Makeup">
+        <img src="./11.jpg" alt="">
+        <img src="./12.jpg" alt="Editorial Makeup">
+      </div>
+      <h3>Personal Consultations & Lessons</h3>
+      <div class="section-gallery">
+        <img src="./16.jpeg" alt="">
+        <img src="./17.jpeg" alt="Editorial Makeup">
+        <img src="./21.jpeg" alt="Editorial Makeup">
+        <img src="./8.jpg" alt="Editorial Makeup">
+      </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="./18.jpeg" alt="Editorial Makeup">
+      <img src="./19.jpeg" alt="Editorial Makeup">
+      <img src="./20.jpeg" alt="Editorial Makeup">
+      <img src="./18.jpeg" alt="Editorial Makeup">
+      <img src="./17.jpeg" alt="Editorial Makeup">
+      <img src="./7.jpg" alt="Editorial Makeup">
+      <img src="./9.jpg" alt="Editorial Makeup">
+      <img src="./10.jpg" alt="Editorial Makeup">
+      <img src="./11.jpg" alt="Editorial Makeup">
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 style="text-align: center;">Book Your Appointment</h2>
+    <form  class="contact-form" action="#" method="POST" id="formContact">
+      <input type="text" id="sendername" placeholder="Your Name"> <br>
+      <input type="email" id="to" placeholder="Email" value="kulsumfatima448@gmail.com" readonly><br>
+      <input type="number" id="subject" placeholder="Number"><br>
+      <input type="text" id="replyto" placeholder="Client Email"><br>
+      <textarea id="message" name="" cols="40" rows="8" placeholder="Message"></textarea> <br>
+      <button onclick="sendEmail();">Send</button>
+      <div id="formMg"></div>
+    </form>
+  </section>
+</main>
+
+  <section id="contact">
+    <h2 style="text-align: center;">Contact Me</h2>
+    <p style="text-align: center;">📍 Location: Bhagalpur, Bihar</p>
+    <p style="text-align: center;">📞 Phone: +91 9199805260</p>
+    <p style="text-align: center;">📧 Email: kulsumfatma7070@gmail.com</p>
+  </section>
+<footer>
+  &copy; 2025 GlamourTouch Makeup Artist &middot; Bhagalpur, Bihar
+</footer>
+ <!-- 18-01-2026 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <!-- 18-01-2026 -->
+ <script src="indexx.js"></script>
+<script>
+  // Basic contact form handler (for demo, not actual email sending)
+  document.getElementById('formContact').addEventListener('submit', function(e) {
+    e.preventDefault();
+    document.getElementById('formMsg').textContent = "Thank you for contacting us! We’ll get back to you soon.";
+    document.getElementById('formContact').reset();
+  });
+
+  //   var swiper = new Swiper(".heroSwiper", {
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 4000,
+  //     disableOnInteraction: false,
+  //   },
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     clickable: true,
+  //   },
+  //   navigation: {
+  //     nextEl: ".swiper-button-next",
+  //     prevEl: ".swiper-button-prev",
+  //   },
+  //   effect: "fade",
+  //   speed: 1000,
+  // });
+
+</script>
+</body>
+</html>
+
